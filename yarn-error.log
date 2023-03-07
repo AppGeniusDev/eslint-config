@@ -1,0 +1,69 @@
+Arguments: 
+  /Users/jhonatabonadio/.nvm/versions/node/v16.19.0/bin/node /Users/jhonatabonadio/.nvm/versions/node/v16.19.0/bin/yarn
+
+PATH: 
+  /Users/jhonatabonadio/.rbenv/shims:/usr/local/opt/libpq/bin:/Users/jhonatabonadio/.nvm/versions/node/v16.19.0/bin:/Users/jhonatabonadio/.nvm/versions/node/v16.19.0/bin:/Users/jhonatabonadio/.nvm/versions/node/v16.19.0/bin:/Users/jhonatabonadio/.rbenv/shims:/Users/jhonatabonadio/.rbenv/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/jhonatabonadio/Library/pnpm:/Users/jhonatabonadio/.rbenv/shims:/usr/local/opt/libpq/bin:/Users/jhonatabonadio/.local/share/zinit/polaris/bin:/Users/jhonatabonadio/.nvm/versions/node/v16.19.0/bin:/Users/jhonatabonadio/.rbenv/bin:/Users/jhonatabonadio/Android/Sdk/emulator:/Users/jhonatabonadio/Android/Sdk/tools:/Users/jhonatabonadio/Android/Sdk/tools/bin:/Users/jhonatabonadio/Android/Sdk/platform-tools:/Users/jhonatabonadio/Android/Sdk/emulator:/Users/jhonatabonadio/Android/Sdk/tools:/Users/jhonatabonadio/Android/Sdk/tools/bin:/Users/jhonatabonadio/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/jhonatabonadio/Library/Caches/Yarn/v6/npm-estraverse-4.3.0-398ad3f3c5a24948be7725e83d11a7de28cdbd1d-integrity/node_modules/estraverse/README.md' -> '/Users/jhonatabonadio/eslint-config/node_modules/@typescript-eslint/utils/node_modules/estraverse/README.md'
+
+npm manifest: 
+  {
+    "name": "eslint-config",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AppGeniusDev/eslint-config.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AppGeniusDev/eslint-config/issues"
+    },
+    "homepage": "https://github.com/AppGeniusDev/eslint-config#readme",
+    "dependencies": {
+      "@typescript-eslint/eslint-plugin": "^5.25.0",
+      "@typescript-eslint/parser": "^5.25.0",
+      "eslint": "^7.23.0 || ^8.0.0",
+      "eslint-config-standard": "^17.0.0",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-jsx-a11y": "^6.5.1",
+      "eslint-plugin-n": "^15.2.0",
+      "eslint-plugin-promise": "^6.0.0",
+      "eslint-plugin-react": "^7.30.0",
+      "eslint-plugin-react-hooks": "^4.5.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-prettier": "^4.0.0",
+      "prettier": "^2.6.2"
+    },
+    "peerDependencies": {
+      "eslint": "^7.23.0 || ^8.0.0",
+      "typescript": ">=3.3.1"
+    },
+    "peerDependenciesMeta": {
+      "typescript": {
+        "optional": true
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
